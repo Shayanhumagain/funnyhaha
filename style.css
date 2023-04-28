@@ -32,11 +32,24 @@
     }
     .nav a { 
       text-align: center; 
-      padding: 10px;
+      padding: 5px;
       border-top: 1px solid rgba(255, 255, 255,0.3); 
       border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
     }
     .nav li:last-of-type a {
       border-bottom: none;
     }
+  }
+
+  .flex-container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    align-content: end;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 15px;
+    padding: 19px;
+    font-size: 30px;
   }
