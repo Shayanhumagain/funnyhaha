@@ -12,11 +12,11 @@
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 107, 107);
   }
 
   .nav a:hover {
-    background: #000000;
+    background: #001eff;
   }
   
   @media all and (max-width: 800px) {
