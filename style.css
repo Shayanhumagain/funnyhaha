@@ -5,18 +5,18 @@
 
     list-style: none ;
     margin: 0;
-    background-color: rgb(216, 132, 98);
+    background-color: rgb(72, 216, 226);
 }
 
 .nav a {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
 
   .nav a:hover {
-    background: #2ff0e0;
+    background: #000000;
   }
   
   @media all and (max-width: 800px) {
@@ -44,7 +44,7 @@
   .flex-container {
     display: flex;
     background-color: rgb(0, 0, 0);
-    text-align: center;
+    flex-direction: column-reverse;
   }
   
   .flex-container > div {
